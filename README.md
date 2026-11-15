@@ -74,7 +74,7 @@ used-car-price-prediction/
 
 ## Installation
 ```bash
-git clone https://github.com/YOUR-USERNAME/used-car-price-prediction.git
+git clone https://github.com/faridhasan2020/used-car-price-prediction.git
 cd used-car-price-prediction
 pip install -r requirements.txt
 ```
