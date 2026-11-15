@@ -50,7 +50,7 @@ Default-parameter baselines: XGBoost CV R² 0.8847, LightGBM CV R² 0.8163.
 
 ## Web Application
 Deployed using Streamlit.
-**Live app:** https://YOUR-APP-NAME.streamlit.app
+**Live app:** [https://used-car-price-2026.streamlit.app/]
 
 ### Screenshots
 ![Streamlit App](screenshots/streamlit_app.png)
