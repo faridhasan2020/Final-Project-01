@@ -1,0 +1,6 @@
+Model,Train R2 (CV),CV R2,CV RMSE,CV R2 std
+XGBoost,0.9972,0.9046,1.4462,0.1076
+LightGBM,0.9871,0.8952,1.543,0.0694
+Random Forest,0.983,0.8939,1.514,0.0847
+Ridge Regression,0.9047,0.889,1.6069,0.0266
+Linear Regression,0.9069,0.885,1.6451,0.0289
