@@ -46,7 +46,7 @@ Default-parameter baselines: XGBoost CV R² 0.8847, LightGBM CV R² 0.8163.
 **Selected using:** highest mean 5-fold CV R² (0.9046) and lowest CV RMSE (1.45 lakhs)
 **Final Test R2:** 0.8628
 **Final Test RMSE:** 1.8804 lakhs
-**Why this model:** Depreciation is non-linear and interacts with showroom price and age (older cars keep a smaller fraction of their price), and fuel/transmission shift that curve. Shallow boosted trees with a small learning rate capture these interactions better than additive linear models. Tree models show a train–CV gap of ~0.09 R², which reflects the small dataset, but they still generalise best. The test score is slightly below CV mainly because of two unusual test cars (a 33-lakh Fortuner and a 20-year-old Camry); with only 60 test rows a few cars move the score a lot. Feature importance (Present_Price ≈ 74%, Car_Age ≈ 15%, then Diesel and Automatic) matches the EDA.
+**Why this model:** Depreciation is non-linear and interacts with showroom price and age (older cars keep a smaller fraction of their price), and fuel/transmission shift that curve. Shallow boosted trees with a small learning rate capture these interactions better than additive linear models. Tree models show a train–CV gap of ~0.09 R², which reflects the small dataset, but they still generalise best. The test score is slightly below CV mainly because of two unusual test cars (a 33-lakh Fortuner and a 20-year-old Camry);with only 60 test rows a few cars move the score a lot. Feature importance (Present_Price ≈ 74%, Car_Age ≈ 15%, then Diesel and Automatic) matches the EDA.
 
 ## Web Application
 Deployed using Streamlit.
