@@ -1,6 +1,6 @@
-# Used Car Price Prediction - [Your Name]
+# Used Car Price Prediction - [Md. Farid Hasan]
 
-**GitHub Repository:** https://github.com/faridhasan2020/used-car-price-prediction
+**GitHub Repository:** https://github.com/faridhasan2020/Final-Project-01
 **Live App:** https://used-car-price-2026.streamlit.app
 
 ## Key EDA Findings
