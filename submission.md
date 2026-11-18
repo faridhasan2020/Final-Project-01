@@ -1,7 +1,7 @@
 # Used Car Price Prediction - [Your Name]
 
 **GitHub Repository:** https://github.com/faridhasan2020/used-car-price-prediction
-**Live App:** https://used-car-price-prediction.streamlit.app
+**Live App:** https://used-car-price-2026.streamlit.app
 
 ## Key EDA Findings
 - Present_Price is the strongest predictor of Selling_Price (r ≈ 0.88), with a near-linear relationship.
